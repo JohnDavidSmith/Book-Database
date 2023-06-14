@@ -26,4 +26,9 @@ Author.init(
   }
 );
 
+// Establishing the one-to-many relationship
+Author.hasMany(Book, {
+  foreignKey: "author_id",
+});
+
 module.exports = Author;

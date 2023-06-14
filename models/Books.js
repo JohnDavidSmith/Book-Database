@@ -41,4 +41,17 @@ Book.init(
   }
 );
 
+// Establishing the one-to-many relationship
+Book.belongsTo(Author, {
+  foreignKey: {
+    allowNull: false,
+  },
+});
+
+Book.belongsTo(Genre, {
+  foreignKey: {
+    allowNull: false,
+  },
+});
+
 module.exports = Book;
