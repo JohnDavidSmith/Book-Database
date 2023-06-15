@@ -10,4 +10,8 @@ const homepage = async (req, res) => {
   await res.render("home");
 };
 
-module.exports = { userSignUp, login, homepage };
+const reviews = async (req, res) => {
+  await res.render("review");
+};
+
+module.exports = { userSignUp, login, homepage, reviews };
