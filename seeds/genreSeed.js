@@ -62,3 +62,5 @@ const genreData = [
     //15
   },
 ];
+
+module.exports = genreData

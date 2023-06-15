@@ -3,6 +3,7 @@ const User = require("./User");
 const Author = require("./Author");
 const Genre = require("./Genre");
 const Review = require("./Reviews");
+const GenreType = require("./GenreType");
 
 // Establishing the relationships
 Books.belongsTo(Author, {
@@ -11,14 +12,21 @@ Books.belongsTo(Author, {
 
 Author.hasMany(Books, {
   foreignKey: "author_id",
+  onDelete: "CASCADE",
 });
 
-Books.belongsTo(Genre, {
-  foreignKey: "genre_id",
+Genre.belongsToMany(Books, {
+  through: {
+    model: GenreType,
+    unique: false,
+  },
 });
 
-Genre.hasMany(Books, {
-  foreignKey: "genre_id",
+Books.belongsToMany(Genre, {
+  through: {
+    model: GenreType,
+    unique: false,
+  },
 });
 
 module.exports = { User, Books, Author, Genre, Review };

@@ -11,6 +11,9 @@ const homepage = async (req, res) => {
 };
 
 const reviews = async (req, res) => {
+  
+
+
   await res.render("review");
 };
 
