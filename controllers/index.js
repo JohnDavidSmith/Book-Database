@@ -1,13 +1,14 @@
 const express = require("express");
 const router = express.Router();
-const homepage = require("./api/home");
-const { userSignUp, saveUser } = require("./api/signup");
-const { login, saveLogin } = require("./api/login");
+const { homepage, userSignUp, login } = require("./viewRoutes");
+const { saveUser } = require("./api/signupRoutes");
+const { saveLogin } = require("./api/loginRoutes");
 
 router.get("/", homepage);
 router.get("/sign-up", userSignUp);
-router.post("/sign-up", saveUser);
 router.get("/login", login);
+
+router.post("/sign-up", saveUser);
 router.post("/login", saveLogin);
 
 module.exports = router;
