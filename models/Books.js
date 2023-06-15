@@ -15,8 +15,8 @@ Book.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    author: {
-      type: DataTypes.STRING,
+    author_id: {
+      type: DataTypes.INTEGER,
       allowNull: false,
       references: {
         model: "author",
@@ -42,7 +42,7 @@ Book.init(
 );
 
 // Establishing the one-to-many relationship
-Book.belongsTo(Author, {
+/*Book.belongsTo(Author, {
   foreignKey: {
     allowNull: false,
   },
@@ -52,6 +52,6 @@ Book.belongsTo(Genre, {
   foreignKey: {
     allowNull: false,
   },
-});
+});*/
 
 module.exports = Book;
