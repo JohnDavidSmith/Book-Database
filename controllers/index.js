@@ -1,11 +1,17 @@
-const router = require("express").Router();
+const express = require("express");
+const {
+  allUsers,
+  userSignUp,
+  login,
+  saveLogin,
+  saveUser,
+} = require("./api/user");
+const router = express.Router();
 
-const apiRoutes = require("./api");
-const homeRoutes = require("./homePage");
-// const reviewsRoutes = require("./reviewRoute.js");
-
-router.use("/", homeRoutes);
-router.use("/api", apiRoutes);
-// router.use("/reviews", reviewsRoutes);
+router.get("/home", allUsers);
+router.get("/sign-up", userSignUp);
+router.post("/sign-up", saveUser);
+router.get("/login", login);
+router.post("/login", saveLogin);
 
 module.exports = router;
