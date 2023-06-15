@@ -7,10 +7,11 @@
       <p>description</p>
     </div>
      <div class="row">
+      <form action="/reviews" method="POST">
           <div class="input-field col s12">
-            <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+            <textarea id="textarea2" class="materialize-textarea" data-length="120" name="message"></textarea>
             <label for="textarea2">Textarea</label>
-            <button class="right" type="submit">Add Post</button>
+            <button class="right" type="submit" name="message">Add Post</button>
           </div>
         </div>
       </form>

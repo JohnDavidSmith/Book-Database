@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-class Books extends Model {}
+class GenreType extends Model {}
 
-Books.init(
+GenreType.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -11,15 +11,19 @@ Books.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    author_id: {
+    book_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: "author",
+        model: "books",
+        key: "id",
+      },
+    },
+    genre_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      references: {
+        model: "genre",
         key: "id",
       },
     },
@@ -29,21 +33,8 @@ Books.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "books",
+    modelName: "genretype",
   }
 );
 
-// Establishing the one-to-many relationship
-/*Book.belongsTo(Author, {
-  foreignKey: {
-    allowNull: false,
-  },
-});
-
-Book.belongsTo(Genre, {
-  foreignKey: {
-    allowNull: false,
-  },
-});*/
-
-module.exports = Books;
+module.exports = GenreType;
