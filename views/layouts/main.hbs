@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../public/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../../public/css/style.css">
     <title>Books</title>
 </head>
 <body>
     <header>
         <h1>Book APP</h1>
     <nav>
-        <a href="/home">Homepage</a>
-        {{#if loggedIn}}
+        <a href="/">Homepage</a>
         <a href="#">Logout</a>
-        {{else}}
         <a href="/login">Login</a>
-        {{/if}}
         <a href="/sign-up">Sign-up</a>
+        <a href="/reviews">review</a>
     </nav>
     </header>
     <main>

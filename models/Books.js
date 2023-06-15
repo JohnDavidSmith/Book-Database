@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-class Book extends Model {}
+class Books extends Model {}
 
-Book.init(
+Books.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -23,7 +23,7 @@ Book.init(
         key: "id",
       },
     },
-    genre: {
+    genre_id: {
       type: DataTypes.STRING,
       allowNull: false,
       references: {
@@ -37,7 +37,7 @@ Book.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "book",
+    modelName: "books",
   }
 );
 
@@ -54,4 +54,4 @@ Book.belongsTo(Genre, {
   },
 });*/
 
-module.exports = Book;
+module.exports = Books;
