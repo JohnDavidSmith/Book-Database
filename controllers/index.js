@@ -1,14 +1,10 @@
 const express = require("express");
-const {
-  allUsers,
-  userSignUp,
-  login,
-  saveLogin,
-  saveUser,
-} = require("./api/user");
 const router = express.Router();
+const homepage = require("./api/home");
+const { userSignUp, saveUser } = require("./api/signup");
+const { login, saveLogin } = require("./api/login");
 
-router.get("/home", allUsers);
+router.get("/", homepage);
 router.get("/sign-up", userSignUp);
 router.post("/sign-up", saveUser);
 router.get("/login", login);
