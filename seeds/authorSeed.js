@@ -106,11 +106,11 @@ const authorData = [
     //26
   },
   {
-    name: "Tappei Nagatuki",
+    name: "Makoto Yukimura",
     //27
   },
   {
-    name: "Mikoto Yamaguchi" && "Yuki Sato", //does this work
+    name: "Hajime Isayama", //does this work
     //28
   },
   {
@@ -170,7 +170,7 @@ const authorData = [
     //42
   },
   {
-    name: "Jean Rhys",
+    name: "S. E. Hinton",
     //43
   },
   {

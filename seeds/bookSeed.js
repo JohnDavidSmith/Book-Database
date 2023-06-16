@@ -250,15 +250,15 @@ const bookData = [
   },
   //manga
   {
-    name: "Re: Zero",
+    name: "Vinland Saga",
     description:
-      "Modern day teenage gamer, Natsuki Subaru, is thrust into a mysterious fantasy RPG styled world on his way home from a convenience store. As he searches for the heroine who he assumes summoned him he crosses paths with a silver haired half elf girl.",
+      "Thorfinn pursues a journey with his father's killer in order to take revenge and end his life in a duel as an honorable warrior and pay his father a homage. A young man named Thorfinn finds himself in a quest for revenge against his father's killer.",
     author_id: 27,
   },
   {
-    name: "Tomodachi Game" || "Friends Game", //does this work
+    name: "Attack On Titan", //does this work
     description:
-      "Yūichi Katagiri was taught the value of friendship when he was young, and it is thanks to his group of four friends that he is able to enjoy high school life today. When their class's school trip funds are stolen, the five are dragged into the mysterious Tomodachi Game as a result of someone's debt.",
+      "It is set in a world where humanity is forced to live in cities surrounded by three enormous walls that protect them from gigantic man-eating humanoids referred to as Titans; the story follows Eren Yeager, who vows to exterminate the Titans after they bring about the destruction of his hometown.",
     author_id: 28,
   },
   {
@@ -310,15 +310,15 @@ const bookData = [
     author_id: 35,
   },
   {
-    name: "My Hero academia" || "boku no hero academia",
+    name: "My Hero academia",
     description:
       "A superhero-loving boy without any powers is determined to enroll in a prestigious hero academy and learn what it really means to be a hero. A superhero-loving boy without any powers is determined to enroll in a prestigious hero academy and learn what it really means to be a hero.",
     author_id: 36,
   },
   {
-    name: "Demon Slayer" || "Kimetsu no yaiba",
+    name: "Demon Slayer",
     description:
-      "t is a Japanese manga series written and illustrated by Koyoharu Gotōge, and it is about Tanjiro Kamado, a young boy who becomes a demon slayer after his family is slaughtered and his younger sister Nezuko is turned into a demon.",
+      "It is a Japanese manga series written and illustrated by Koyoharu Gotōge, and it is about Tanjiro Kamado, a young boy who becomes a demon slayer after his family is slaughtered and his younger sister Nezuko is turned into a demon.",
     author_id: 37,
   },
   {
@@ -368,9 +368,9 @@ const bookData = [
     author_id: 42,
   },
   {
-    name: "Wide Sargasso Sea",
+    name: "The Outsiders",
     description:
-      "Wide Sargasso Sea is the story of Antionette Cosway, who becomes the mad-woman in the attic. She is a Creole woman living in Jamaica shortly after the abolition of slavery. The point of view of Mr Rochester is bookended by the views of Antionette herself, growing up and later in the attic of Thornfield Hall.",
+      "The Outsiders (1967) is a well-known young adult novel by American writer S.E. Hinton. It tells the story of 14-year-old Ponyboy Curtis and his two older brothers, Soda and Darry. The boys are orphans and struggle to stick together in their lower-class neighborhood, known as the East Side.",
     author_id: 43,
   },
   {
@@ -404,7 +404,7 @@ const bookData = [
     author_id: 48,
   },
   {
-    name: "The call of the World",
+    name: "The call of the Wild",
     description:
       "Buck, a powerful dog, half St. Bernard and half sheepdog, lives on Judge Miller's estate in California's Santa Clara Valley. He leads a comfortable life there, but it comes to an end when men discover gold in the Klondike region of Canada and a great demand arises for strong dogs to pull sleds.",
     author_id: 49,
