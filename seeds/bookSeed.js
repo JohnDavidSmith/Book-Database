@@ -241,6 +241,13 @@ const bookData = [
     author_id: 26,
     //popular
   },
+  {
+    name: "A Promised Land",
+    description:
+      "In the stirring, highly anticipated first volume of his presidential memoirs, Barack Obama tells the story of his improbable odyssey from young man searching for his identity to leader of the free world, describing in strikingly personal detail both his political education and the landmark moments of the first term of his historic presidency—a time of dramatic transformation and turmoil.",
+    author_id: 52,
+    // genre_id: [6, 7],
+  },
   //manga
   {
     name: "Re: Zero",
@@ -319,6 +326,20 @@ const bookData = [
     description:
       "Jujutsu Kaisen is the story of Yuji Itadori, an easygoing high school student who joins the occult club at school. When they accidentally summon grotesque creatures by messing with a cursed object, Itadori fights to save his friends' lives.",
     author_id: 38,
+  },
+  {
+    name: "Tomie: Complete Deluxe Edition",
+    description:
+      "Tomie Kawakami is a femme fatale with long black hair and a beauty mark just under her left eye. She can seduce nearly any man, and drive them to murder as well, even though the victim is often Tomie herself. While one lover seeks to keep her for himself, another grows terrified of the immortal succubus. But soon they realize that no matter how many times they kill her, the world will never be free of Tomie. -- VIZ Media",
+    author_id: 54,
+    //genre_id: [4, 5, 8, 15],
+  },
+  {
+    name: "Uzumaki",
+    description:
+      "Kurouzu-cho, a small fogbound town on the coast of Japan, is cursed. According to Shuichi Saito, the withdrawn boyfriend of teenager Kirie Goshima, their town is haunted not by a person or being but a pattern: UZUMAKI, the spiral—the hypnotic secret shape of the world. The bizarre masterpiece horror manga is now available all in a single volume. Fall into a whirlpool of terror! -- VIZ Media",
+    author_id: 54,
+    //genre_id: [4, 5, 8, 15],
   },
   //manga end
   //Classics Start
@@ -407,13 +428,6 @@ const bookData = [
     author_id: 51,
   },
   {
-    name: "A Promised Land",
-    description:
-      "In the stirring, highly anticipated first volume of his presidential memoirs, Barack Obama tells the story of his improbable odyssey from young man searching for his identity to leader of the free world, describing in strikingly personal detail both his political education and the landmark moments of the first term of his historic presidency—a time of dramatic transformation and turmoil.",
-    author_id: 52,
-    // genre_id: [6, 7],
-  },
-  {
     name: "Jurassic Park",
     description:
       "A wealthy man's experiment has turned Isla Nubar into a home for dinosaurs.",
@@ -426,34 +440,6 @@ const bookData = [
       "Hidden somewhere in South America, a world full of adventure awaits, but only the extravagant Professor Challenger believes in its existence. When he joins a reporter in search of adventure, a brave nobleman and a colleague ready to prove him wrong, Challenger will, at last, have the opportunity to discover the lost world.",
     author_id: 53,
     //genre_id: [5, 16],
-  },
-  {
-    name: "Naruto Vol. 1",
-    description:
-      "A hilarious, touching, action-packed tale of a ninja in training! In the Village Hidden in the Leaves, ninja reign supreme, and school is literally a battlefield. Naruto, Sasuke, and Sakura are classmates and ninja-in-training working together (sort of) toward a common goal: to become the greatest ninja in the land! But Naruto Uzumaki is no ordinary ninja student. For deep in his body is sealed the spirit of a terrible demon known as the Nine-Tailed Fox!",
-    author_id: 54,
-    //genre_id: [2, 5, 8],
-  },
-  {
-    name: "Naruto Vol. 2",
-    description:
-      "Tired of menial tasks, Naruto, Sasuke and Sakura ask for a tougher assignment. But you should always be careful what you wish for! Along with their teacher, Kakashi, the trio must now guard a cranky old man from the Land of the Waves. But Tazuna the bridgebuilder is in more danger than anyone could have imagined. And now the young ninja are too! -- VIZ Media",
-    author_id: 54,
-    //genre_id: [2, 5, 8],
-  },
-  {
-    name: "Tomie: Complete Deluxe Edition",
-    description:
-      "Tomie Kawakami is a femme fatale with long black hair and a beauty mark just under her left eye. She can seduce nearly any man, and drive them to murder as well, even though the victim is often Tomie herself. While one lover seeks to keep her for himself, another grows terrified of the immortal succubus. But soon they realize that no matter how many times they kill her, the world will never be free of Tomie. -- VIZ Media",
-    author_id: 55,
-    //genre_id: [4, 5, 8, 15],
-  },
-  {
-    name: "Uzumaki",
-    description:
-      "Kurouzu-cho, a small fogbound town on the coast of Japan, is cursed. According to Shuichi Saito, the withdrawn boyfriend of teenager Kirie Goshima, their town is haunted not by a person or being but a pattern: UZUMAKI, the spiral—the hypnotic secret shape of the world. The bizarre masterpiece horror manga is now available all in a single volume. Fall into a whirlpool of terror! -- VIZ Media",
-    author_id: 55,
-    //genre_id: [4, 5, 8, 15],
   },
 ];
 

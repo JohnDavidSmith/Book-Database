@@ -214,12 +214,8 @@ const authorData = [
     //53
   },
   {
-    name: "Masashi Kishimoto",
-    //54
-  },
-  {
     name: "Junji Ito",
-    //55
+    //54
   },
 ];
 
