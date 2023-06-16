@@ -14,6 +14,7 @@ const bookData = [
     description:
       "The Two Towers is the second part of J.R.R. Tolkien's epic adventure, The Lord of the Rings. Frodo and the Companions of the Ring have been beset by danger during their quest to prevent the Ruling Ring from falling into the hands of the Dark Lord by destroying it in the Cracks of Doom.",
     author_id: 1,
+    images: "",
     // genre_id: [1, 2, 5],
   },
   {
@@ -21,6 +22,7 @@ const bookData = [
     description:
       "The Return of the King is the third part of J.R.R. Tolkien's epic adventure, The Lord of the Rings. The Companions of the Ring have become involved in separate adventures as the quest continues.",
     author_id: 1,
+    images: "",
     // genre_id: [1, 2, 5],
   },
   {
@@ -129,21 +131,14 @@ const bookData = [
     // genre_id: [5, 13, 14],
   },
   {
-    name: "One Piece Vol. 1",
+    name: "One Piece", //has one
     description:
       'As a child, Monkey D. Luffy was inspired to become a pirate by listening to the tales of the buccaneer "Red-Haired" Shanks. But his life changed when Luffy accidentally ate the Gum-Gum Devil Fruit and gained the power to stretch like rubber...at the cost of never being able to swim again! Years later, still vowing to become the king of the pirates, Luffy sets out on his adventure...one guy alone in a rowboat, in search of the legendary One Piece.',
     author_id: 10,
     // genre_id: [2, 5, 8],
   },
   {
-    name: "One Piece Vol. 2",
-    description:
-      "As a kid, Monkey D. Luffy vowed to become King of the Pirates and find the legendary treasure called the One Piece. The enchanted Gum-Gum Fruit has given Luffy the power to stretch like rubber--and his new crewmate, the infamous pirate hunter Roronoa Zolo, strikes fear into the hearts of other buccaneers! But what chance does one rubber guy stand against Nami, a thief so tough she specializes in robbing pirates...or Captain Buggy, a fiendish pirate lord whose weird, clownish appearance conceals even weirder powers?",
-    author_id: 10,
-    // genre_id: [2, 5, 8],
-  },
-  {
-    name: "Death Note",
+    name: "Death Note", //has one
     description:
       "Light tests the boundaries of the Death Note's powers as L and the police begin to close in. Luckily Light's father is the head of the Japanese National Police Agency and leaves vital information about the case lying around the house. With access to his father's files, Light can keep one step ahead of the authorities. But who is the strange man following him, and how can Light guard against enemies whose names he doesn't know?",
     author_id: 11,
