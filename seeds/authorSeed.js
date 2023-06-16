@@ -31,6 +31,9 @@ const authorData = [
   {
     name: "Eiichiro Oda",
   },
+  {
+    name: "Tsugumi Ohba",
+  },
 ];
 
 module.exports = authorData;
