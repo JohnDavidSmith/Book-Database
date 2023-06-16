@@ -23,6 +23,10 @@ Books.init(
         key: "id",
       },
     },
+    description: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
   {
     sequelize,
