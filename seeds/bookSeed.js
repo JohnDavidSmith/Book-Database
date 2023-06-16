@@ -241,6 +241,13 @@ const bookData = [
     author_id: 26,
     //popular
   },
+  {
+    name: "A Promised Land",
+    description:
+      "In the stirring, highly anticipated first volume of his presidential memoirs, Barack Obama tells the story of his improbable odyssey from young man searching for his identity to leader of the free world, describing in strikingly personal detail both his political education and the landmark moments of the first term of his historic presidency—a time of dramatic transformation and turmoil.",
+    author_id: 52,
+    // genre_id: [6, 7],
+  },
   //manga
   {
     name: "Re: Zero",
@@ -319,6 +326,20 @@ const bookData = [
     description:
       "Jujutsu Kaisen is the story of Yuji Itadori, an easygoing high school student who joins the occult club at school. When they accidentally summon grotesque creatures by messing with a cursed object, Itadori fights to save his friends' lives.",
     author_id: 38,
+  },
+  {
+    name: "Tomie: Complete Deluxe Edition",
+    description:
+      "Tomie Kawakami is a femme fatale with long black hair and a beauty mark just under her left eye. She can seduce nearly any man, and drive them to murder as well, even though the victim is often Tomie herself. While one lover seeks to keep her for himself, another grows terrified of the immortal succubus. But soon they realize that no matter how many times they kill her, the world will never be free of Tomie. -- VIZ Media",
+    author_id: 54,
+    //genre_id: [4, 5, 8, 15],
+  },
+  {
+    name: "Uzumaki",
+    description:
+      "Kurouzu-cho, a small fogbound town on the coast of Japan, is cursed. According to Shuichi Saito, the withdrawn boyfriend of teenager Kirie Goshima, their town is haunted not by a person or being but a pattern: UZUMAKI, the spiral—the hypnotic secret shape of the world. The bizarre masterpiece horror manga is now available all in a single volume. Fall into a whirlpool of terror! -- VIZ Media",
+    author_id: 54,
+    //genre_id: [4, 5, 8, 15],
   },
   //manga end
   //Classics Start
@@ -405,6 +426,20 @@ const bookData = [
     description:
       "Ishmael describes Moby Dick as having two prominent white areas around 'a peculiar snow-white wrinkled forehead, and a high, pyramidical white hump', the rest of his body being of stripes and patches between white and gray.",
     author_id: 51,
+  },
+  {
+    name: "Jurassic Park",
+    description:
+      "A wealthy man's experiment has turned Isla Nubar into a home for dinosaurs.",
+    author_id: 53,
+    //genre_id: [5, 16],
+  },
+  {
+    name: "The Lost World",
+    description:
+      "Hidden somewhere in South America, a world full of adventure awaits, but only the extravagant Professor Challenger believes in its existence. When he joins a reporter in search of adventure, a brave nobleman and a colleague ready to prove him wrong, Challenger will, at last, have the opportunity to discover the lost world.",
+    author_id: 53,
+    //genre_id: [5, 16],
   },
 ];
 
