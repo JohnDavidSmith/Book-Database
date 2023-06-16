@@ -205,6 +205,22 @@ const authorData = [
     name: "Herman Melville",
     //51
   },
+  {
+    name: "Barack Obama",
+    //52
+  },
+  {
+    name: "Michael Crichton",
+    //53
+  },
+  {
+    name: "Masashi Kishimoto",
+    //54
+  },
+  {
+    name: "Junji Ito",
+    //55
+  },
 ];
 
 module.exports = authorData;
