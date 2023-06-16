@@ -251,7 +251,7 @@ const bookData = [
     author_id: 27,
   },
   {
-    name: "Attack On Titan", //does this work
+    name: "Attack On Titan", 
     description:
       "It is set in a world where humanity is forced to live in cities surrounded by three enormous walls that protect them from gigantic man-eating humanoids referred to as Titans; the story follows Eren Yeager, who vows to exterminate the Titans after they bring about the destruction of his hometown.",
     author_id: 28,
