@@ -1,15 +1,22 @@
+<div class="d-flex p-2 justify-content-center flex-wrap">
 <div class="card mb-3" style="max-width: 540px;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="../images/Popular/5star.jpg" class="img-fluid rounded-start" alt="...">
+      <img src="{{bookData.images}}" class="img-fluid rounded-start" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Author</p>
-        <p class="card-text"><small class="text-body-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident porro blanditiis corporis optio atque distinctio, numquam rerum? Facilis ad alias architecto veritatis, non id eligendi qui mollitia ut voluptatibus neque!</small></p>
+        <h5 class="card-title">{{bookData.name}}</h5>
+        <p class="card-text">{{bookData.Author}}</p>
+        <p class="card-text"><small class="text-body-secondary">{{bookData.description}}</small></p>
       </div>
-      <button class="">Add Review</button>
     </div>
   </div>
 </div>
+</div>
+{{#each reviewer as |reviews| }}
+<article class="d-flex p-2 justify-content-center flex-wrap">
+  <h3>{{reviews.reviewer_name}}</h3>
+  <p>{{reviews.message}}</p>
+</article>
+{{/each}}
