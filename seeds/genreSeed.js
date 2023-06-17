@@ -61,6 +61,10 @@ const genreData = [
     name: "Thriller",
     //15
   },
+  {
+    name: "Sci-Fi",
+    //16
+  },
 ];
 
-module.exports = genreData
+module.exports = genreData;
