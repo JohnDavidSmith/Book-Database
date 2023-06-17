@@ -19,6 +19,13 @@ Review.init(
       type: DataTypes.TEXT,
       allowNull: false,
     },
+    review_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: "user",
+        key: "id",
+      },
+    },
   },
   {
     sequelize,
