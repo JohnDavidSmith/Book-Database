@@ -5,7 +5,6 @@ const bookData = require("./bookSeed");
 const genreData = require("./genreSeed");
 const authorData = require("./authorSeed");
 const userData = require("./userSeed");
-const { bulkCreate } = require("../models/User");
 
 // const userData = require("./postData.json");
 
@@ -13,7 +12,7 @@ const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 
   try {
-    await User, bulkCreate(userData);
+    await User.bulkCreate(userData);
     await Author.bulkCreate(authorData);
     await Genre.bulkCreate(genreData);
     await Books.bulkCreate(bookData);
@@ -21,12 +20,6 @@ const seedDatabase = async () => {
   } catch (err) {
     console.error(err);
   }
-
-  // await User.bulkCreate(userData, {
-  //   individualHooks: true,
-  //   returning: true,
-  // });
-
   process.exit(0);
 };
 
