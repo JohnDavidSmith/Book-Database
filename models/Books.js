@@ -24,12 +24,13 @@ Books.init(
       },
     },
     description: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
-    images:{
-      type: DataTypes.STRING,
-      allowNull: false, 
+    images: {
+      type: DataTypes.TEXT,
+      allowNull: false,
+      defaultValue: "image",
     },
   },
   {
