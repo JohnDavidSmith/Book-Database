@@ -13,11 +13,11 @@ const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 
   try {
+    await Author.bulkCreate(authorData);
+    await Books.bulkCreate(bookData);
     await User.bulkCreate(userData);
     await Review.bulkCreate(reviewData);
-    await Author.bulkCreate(authorData);
     await Genre.bulkCreate(genreData);
-    await Books.bulkCreate(bookData);
 
     console.log("Books seeded successfully");
   } catch (err) {

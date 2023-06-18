@@ -11,10 +11,10 @@ const { postReview } = require("./api/reviewRoutes");
 router.get("/", homepage);
 router.get("/sign-up", userSignUp);
 router.get("/login", login);
-router.get("/reviews", reviews);
+router.get("/book/:id", reviews);
 
-router.post("/api/sign-up", saveUser);
-router.post("/api/login", saveLogin);
-router.post("/api/reviews", withAuth, postReview);
+router.post("/sign-up", saveUser);
+router.post("/login", saveLogin);
+router.post("/reviews", withAuth, postReview);
 
 module.exports = router;

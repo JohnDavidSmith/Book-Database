@@ -10,7 +10,7 @@ const saveLogin = async (req, res) => {
     }
 
     const userPassword = await User.findOne({
-      where: { email: req.body.password },
+      where: { password: req.body.password },
     });
 
     if (!userPassword) {
@@ -18,10 +18,10 @@ const saveLogin = async (req, res) => {
       return;
     }
     req.session.save(() => {
-      req.session.user_id = userData.id;
+      req.session.user_id = userEmail.id;
       req.session.logged_in = true;
 
-      res.json({ user: userData, message: "You are now logged in!" });
+      res.json({ user: userEmail, message: "You are now logged in!" });
     });
   } catch (err) {
     res.status(400).json(err);
