@@ -1,3 +1,5 @@
+const { Review, Books, Author } = require("../models");
+
 const userSignUp = async (req, res) => {
   await res.render("sign-up");
 };
@@ -11,10 +13,18 @@ const homepage = async (req, res) => {
 };
 
 const reviews = async (req, res) => {
-  
+  const bookData = await Books.findByPk(req.params.id, {
+    include: [{ model: Author }],
+  });
+  const reviewsData = await Review.findAll({ exclude: ["id"] });
+  const reviewer = reviewsData.map((msg) => msg.get({ plain: true }));
+  bookData = bookData.map((book) => book.get({ plain: true }));
 
-
-  await res.render("review");
+  await res.render("review", {
+    bookData,
+    reviewer,
+    logged_in: req.session.logged_in,
+  });
 };
 
 module.exports = { userSignUp, login, homepage, reviews };
