@@ -32,10 +32,10 @@ Review.belongsTo(User, {
   foreignKey: "user_id",
 });
 Books.hasMany(Review, {
-  foreignKey: "review_id",
+  foreignKey: "book_id",
 });
 Review.belongsTo(Books, {
-  foreignKey: "review_id",
+  foreignKey: "book_id",
 });
 
 module.exports = { User, Books, Author, Genre, Review };

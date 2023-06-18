@@ -11,15 +11,15 @@ Review.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    reviewer_name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+    // reviewer_name: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    // },
     message: {
       type: DataTypes.TEXT,
       allowNull: false,
     },
-    review_id: {
+    book_id: {
       type: DataTypes.INTEGER,
       references: {
         model: "books",
