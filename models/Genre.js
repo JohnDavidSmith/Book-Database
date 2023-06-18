@@ -26,9 +26,4 @@ Genre.init(
     }
   );
 
-  // Establishing the one-to-many relationship
-// Genre.hasMany(Book, {
-//   foreignKey: "genre_id",
-// });
-  
   module.exports = Genre; 

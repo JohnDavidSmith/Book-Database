@@ -18,10 +18,10 @@ const reviews = async (req, res) => {
   });
   const reviewsData = await Review.findAll({ exclude: ["id"] });
   const reviewer = reviewsData.map((msg) => msg.get({ plain: true }));
-  bookData = bookData.map((book) => book.get({ plain: true }));
+  const books = bookData.get({ plain: true });
 
   await res.render("review", {
-    bookData,
+    books,
     reviewer,
     logged_in: req.session.logged_in,
   });
