@@ -1,20 +1,26 @@
-const { Review, Books, Author, User } = require("../models");
+const router = require("express").Router();
+const { User, Author, Books, Review } = require("../models/");
+const withAuth = require("../utils/auth");
 
-const userSignUp = async (req, res) => {
-  await res.render("sign-up");
-};
-
-const login = async (req, res) => {
-  await res.render("login");
-};
-
-const homepage = async (req, res) => {
+router.get("/", async (req, res) => {
   await res.render("home");
-};
+});
 
-const reviews = async (req, res) => {
+router.get("/login", async (req, res) => {
+  if (req.session.logged_in) {
+    res.redirect("/");
+    return;
+  }
+  res.render("login");
+});
+
+router.get("/logout", async (req, res) => {
+  await res.redirect("/");
+  return;
+});
+
+router.get("/book/:id", async (req, res) => {
   try {
-    console.log(req.params);
     const bookData = await Books.findByPk(req.params.id, {
       include: [{ model: Author }],
     });
@@ -41,6 +47,25 @@ const reviews = async (req, res) => {
     console.log("error", err);
     res.status(500).json({ message: "error not logged in", error: err });
   }
-};
+});
 
-module.exports = { userSignUp, login, homepage, reviews };
+router.get("/profile", withAuth, async (req, res) => {
+  try {
+    // Find the logged in user based on the session ID
+    const userData = await User.findByPk(req.session.user_id, {
+      attributes: { exclude: ["password"] },
+      include: [{ model: Project }],
+    });
+
+    const user = userData.get({ plain: true });
+
+    res.render("/", {
+      ...user,
+      logged_in: true,
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+module.exports = router;

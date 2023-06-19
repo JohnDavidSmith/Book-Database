@@ -370,6 +370,7 @@ const reviewData = [
     message:
       "One of the greatest sci fi adventure novels ever written! A fantastic read that gets your imagination and taste for adventure flowing. Superb.",
     book_id: 66,
+    user_id: 4,
   },
 ];
 

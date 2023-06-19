@@ -14,9 +14,10 @@
   </div>
 </div>
 </div>
-<form action="/reviews" method="POST">
+<form class="submitReview">
+    <label for="message">testing</label>
     <textarea name="message" id="message" cols="30" rows="10" placeholder="Add Review"></textarea>
-    <input type="hidden" name="book_id" value="{{book_id}}">
+    <input type="hidden" value="{{book_id}}" id="bookValue">
     <button type="submit">post</button>
 </form>
 {{#each reviewer as |reviews| }}
@@ -25,3 +26,5 @@
   <p>{{reviews.message}}</p>
 </article>
 {{/each}}
+
+<script src="/js/review.js"></script>

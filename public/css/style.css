@@ -2,6 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
+.validate {
+  background-color: #fff;
+}
 body {
   margin: 0;
   background-color: #000;
