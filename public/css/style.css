@@ -16,6 +16,12 @@ body header nav {
 main {
   color: #fff;
 }
+input.input[type="text"] {
+  background-color: #fff;
+}
+input.input[type="password"] {
+  background-color: #fff;
+}
 
 h1 {
   font-family: Arial;
