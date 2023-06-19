@@ -7,7 +7,6 @@
 - Problems Solved: The problems this particular application solves is being able to see what others thought about a book you amy be deciding to read
 - What I Learned: We learned many thing throughout the process of creating this porject, one of the most important thing is how valuable sleep is. This porject was definatly a lot harder then we thought it would be and it also did not help that whenever we saw a cool idea on the internet we wanted to replicate it and that cool idea would take many hours to complete. Another thing we learned thorught the process of creating this program was routing can be really annoying and so can spell chicking. Spent about an hour trying to figure out where the code was going wrong turns out the issue was "submit" was spelt "sumbit".
 
-
 ## Contents
 
 - This project content `package.json` with the required dependencies and data base files schema.sql and seeds.sql.
