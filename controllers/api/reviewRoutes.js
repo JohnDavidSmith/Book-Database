@@ -1,7 +1,13 @@
+/**
+ * all required variables whether it be an import or a library
+ */
 const router = require("express").Router();
 const { Review } = require("../../models");
 const withAuth = require("../../utils/auth");
 
+/**
+ * post route for user review
+ */
 router.post("/", withAuth, async (req, res) => {
   try {
     console.log(req.body.message);

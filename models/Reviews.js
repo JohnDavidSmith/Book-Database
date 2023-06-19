@@ -1,8 +1,12 @@
+/**
+ * all required variables whether it be an import or a library
+ */
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-class Review extends Model {}
+class Review extends Model {} //use sequlize method for models
 
+//create table Review
 Review.init(
   {
     id: {
@@ -11,10 +15,6 @@ Review.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    // reviewer_name: {
-    //   type: DataTypes.STRING,
-    //   allowNull: false,
-    // },
     message: {
       type: DataTypes.TEXT,
       allowNull: false,

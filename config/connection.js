@@ -1,7 +1,11 @@
+/**
+ * Standard conection for sequelize for connecting to our database
+ */
+
 const Sequelize = require("sequelize");
 require("dotenv").config();
 
-let sequelize;
+let sequelize; // declare let varible sequlize
 
 if (process.env.JAWSDB_URL) {
   sequelize = new Sequelize(process.env.JAWSDB_URL);

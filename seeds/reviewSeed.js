@@ -1,3 +1,6 @@
+/**
+ * seed for genera table
+ */
 const reviewData = [
   {
     message:

@@ -1,5 +1,6 @@
-const { Author } = require("../models");
-
+/**
+ * seed for author table
+ */
 const authorData = [
   {
     name: "J.R.R. Tolkien",
