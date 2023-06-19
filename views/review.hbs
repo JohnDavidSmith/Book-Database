@@ -2,21 +2,29 @@
 <div class="card mb-3" style="max-width: 540px;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="{{bookData.images}}" class="img-fluid rounded-start" alt="...">
+      <img src="{{books.images}}" class="img-fluid rounded-start" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">{{bookData.name}}</h5>
-        <p class="card-text">{{bookData.Author}}</p>
-        <p class="card-text"><small class="text-body-secondary">{{bookData.description}}</small></p>
+        <h5 class="card-title">{{books.name}}</h5>
+        <p class="card-text">{{books.author.name}}</p>
+        <p class="card-text"><small class="text-body-secondary">{{books.description}}</small></p>
       </div>
     </div>
   </div>
 </div>
 </div>
+<form class="submitReview">
+    <label for="message">testing</label>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Add Review"></textarea>
+    <input type="hidden" value="{{book_id}}" id="bookValue">
+    <button type="submit">post</button>
+</form>
 {{#each reviewer as |reviews| }}
-<article class="d-flex p-2 justify-content-center flex-wrap">
-  <h3>{{reviews.reviewer_name}}</h3>
+<article class="d-flex flex-column p-2 justify-content-center flex-wrap text-center">
+  <h3>User:  {{reviews.user.email}}</h3>
   <p>{{reviews.message}}</p>
 </article>
 {{/each}}
+
+<script src="/js/review.js"></script>
