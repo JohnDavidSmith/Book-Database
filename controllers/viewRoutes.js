@@ -41,7 +41,7 @@ router.get("/book/:id", async (req, res) => {
       books,
       reviewer,
       book_id: reviewer[0].book_id,
-      // logged_in: req.session.logged_in, // (for button to post review)
+      logged_in: req.session.logged_in,
     });
   } catch (err) {
     console.log("error", err);

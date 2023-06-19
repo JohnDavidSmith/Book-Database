@@ -1,30 +1,53 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Books</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Bookflix and Chill</h1>
-    <nav>
-        <a href="/" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">cottage</i></a>
-        <a href="/book/25" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">rate_review</i></a>
-        <a href="/login" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">login</i></a>
-        <a href="/" id="logout" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">logout</i></a>
-    </nav>
+      <h1>Bookflix and Chill</h1>
+      <nav>
+        <a
+          href="/"
+          class="btn-floating btn-large waves-effect waves-light red"
+        ><i class="material-icons">cottage</i></a>
+        <a
+          href="/book/25"
+          class="btn-floating btn-large waves-effect waves-light red"
+        ><i class="material-icons">rate_review</i></a>
+        <a
+          href="/login"
+          class="btn-floating btn-large waves-effect waves-light red"
+        ><i class="material-icons">login</i></a>
+        <a
+          href="/"
+          id="logout"
+          class="btn-floating btn-large waves-effect waves-light red"
+        ><i class="material-icons">logout</i></a>
+      </nav>
     </header>
     <main>
-        {{{ body }}}
+      {{{body}}}
     </main>
     <footer>
 
     </footer>
     <script src="/js/logout.js"></script>
-</body>
+  </body>
 </html>
