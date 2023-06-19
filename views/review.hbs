@@ -1,30 +1,55 @@
-<div class="d-flex p-2 justify-content-center flex-wrap">
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="{{books.images}}" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">{{books.name}}</h5>
-        <p class="card-text">{{books.author.name}}</p>
-        <p class="card-text"><small class="text-body-secondary">{{books.description}}</small></p>
+<div class="row back">
+
+      <div class="col s12 m4 l3">
+
+          <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{books.images}}">
+        </div>
+        <div class="card-content">
+          <span class="card-title black-text"><strong>{{books.name}}</strong></span>
+          <span class="card-title black-text"><strong>Author: {{books.author.name}}</strong></span>
+          <p class=" black-text">{{books.description}}</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
-</div>
-<form class="submitReview">
-    <label for="message">testing</label>
+      </div>
+
+      <div class="col s12 m8 l9">
+
+          <div class="row">
+    <div class="col s12 m6">
+      <div class="card  darken-1">
+        <div class="card-content white-text">
+
+
+          {{#each reviewer as |reviews| }}
+          <article class="">
+          <span class="black-text"><strong>User: {{reviews.user.email}}</strong></span>
+          <br>
+          <p class="black-text">{{reviews.message}}</p>
+          <br>
+          </article>
+          {{/each}}
+
+        {{#if logged_in}}
+        <form class="submitReview">
     <textarea name="message" id="message" cols="30" rows="10" placeholder="Add Review"></textarea>
     <input type="hidden" value="{{book_id}}" id="bookValue">
     <button type="submit">post</button>
+    {{else}}
+    <a href="/login">Log In To Post a Review</a>
+    {{/if}}
 </form>
-{{#each reviewer as |reviews| }}
-<article class="d-flex flex-column p-2 justify-content-center flex-wrap text-center">
-  <h3>User:  {{reviews.user.email}}</h3>
-  <p>{{reviews.message}}</p>
-</article>
-{{/each}}
+      </div>
+    </div>
+  </div>
 
-<script src="/js/review.js"></script>
+      </div>
+
+    </div>
+
+<script src="/js/review.js"></script> 
