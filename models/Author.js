@@ -1,8 +1,12 @@
+/**
+ * all required variables whether it be an import or a library
+ */
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-class Author extends Model {}
+class Author extends Model {} //use sequlize method for models
 
+//Create table Author
 Author.init(
   {
     id: {
@@ -25,4 +29,4 @@ Author.init(
   }
 );
 
-module.exports = Author;
+module.exports = Author; //export

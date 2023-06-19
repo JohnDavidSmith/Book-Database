@@ -1,5 +1,6 @@
-const Genre = require("../models");
-
+/**
+ * seed for genera table
+ */
 const genreData = [
   {
     name: "Fantasy",

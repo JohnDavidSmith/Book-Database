@@ -1,3 +1,6 @@
+/**
+ * seed for genera table
+ */
 const userSeed = [
   {
     // firstName: "John",

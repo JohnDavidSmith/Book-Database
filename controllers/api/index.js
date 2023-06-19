@@ -1,3 +1,6 @@
+/**
+ * Defining the routes
+ */
 const router = require("express").Router();
 const loginRoutes = require("./loginRoutes");
 const reviewRoutes = require("./reviewRoutes");

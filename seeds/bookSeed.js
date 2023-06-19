@@ -1,6 +1,6 @@
-const { Books } = require("../models");
-const authorData = require("./authorSeed");
-
+/**
+ * seed for bookData table
+ */
 const bookData = [
   {
     name: "The Fellowship of the Ring", //1
