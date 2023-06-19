@@ -19,10 +19,6 @@
 
 - This application can be used by any internet retail company wants to use the latest technologies for their e-commerce website in order to compete with other e-commerce companies.
 
-## Screenshot
-
-![Screenshot of the E-Commerce Back End](./Assets/E-Commerce%20Back%20End-ROM.png)
-
 ## GitHub link
 
 [The E-Commerce Back End](https://github.com/JohnDavidSmith/E-commerce-BackEnd-ORM-Mod13)
@@ -34,7 +30,7 @@ https://drive.google.com/file/d/1YtYbKl6Dyj0X1t0iP8RVIanmTXtg-Drx/view
 ## Credits
 
 - Albi krasniqi
-- Griffin Pelliteri
+- Griffin Pelletier
 
 ## License
 
@@ -54,4 +50,6 @@ If you want to reach me or any of my contributors with additional question click
 
 ## Screenshot
 
-![test](test)
+![Homepage](./images/bookhome.png)
+![Login](./images/loginRoute.png)
+![review Page](./images/reviewRoute.png)
