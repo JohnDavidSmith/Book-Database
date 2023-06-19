@@ -2,10 +2,11 @@
 
 ## Description
 
-- Motivation: Our motivation for this project was to create and application where u can view several books and see who they were created by and reviews from other users
-- Goal: We built this project to fully test our knowledge from the passing "unit". This is our second project we have done now and time does fly really fast, and so do the classes. Due to this fact it becomes hard to really see if your grasping the subject at hand and this project really tested whether or not we were able to create an application with what we have learned
-- Problems Solved: The problems this particular application solves is being able to see what others thought about a book you may be deciding to read
-- What I Learned: We learned many things throughout the process of creating this project, one of the most important things is how valuable sleep is. This project was definitely a lot harder than we thought it would be and it also did not help that whenever we saw a cool idea on the internet we wanted to replicate it and that cool idea would take am,ny hours to complete. Another thing we learned through the process of creating this program was routing can be really annoying and so can spell checking. Spent about an hour trying to figure out where the code was going wrong turns out the issue was “submit” was spelt “submit”.
+- Motivation: Our motivation for this project was to create an application where u can view several books and see who they were created by and reviews from other users.
+- Goal: We built this project to fully test our knowleadge from the passing "unit". This is our second preoject we have done now and time does fly really fast, and so do the classes. Due to this fact it becomes hard to really see if your grasping the subject at hand and this project really tested wheather or not we were able to create an application with what we have learned
+- Problems Solved: The problems this particular application solves is being able to see what others thought about a book you amy be deciding to read
+- What I Learned: We learned many thing throughout the process of creating this porject, one of the most important thing is how valuable sleep is. This porject was definatly a lot harder then we thought it would be and it also did not help that whenever we saw a cool idea on the internet we wanted to replicate it and that cool idea would take many hours to complete. Another thing we learned thorught the process of creating this program was routing can be really annoying and so can spell chicking. Spent about an hour trying to figure out where the code was going wrong turns out the issue was "submit" was spelt "sumbit".
+
 
 ## Contents
 
@@ -17,7 +18,7 @@
 
 ## Usage
 
-- This application can be used by any internet retail company wants to use the latest technologies for their e-commerce website in order to compete with other e-commerce companies.
+- This application can be used by anyone who want to read a book and find the reviews about that particular book.
 
 ## GitHub link
 
@@ -38,7 +39,7 @@ N/A
 
 ## Questions
 
-GitHub: JohnGithub
+GitHub: https://github.com/JohnDavidSmith/Book-Database
 GitHub: https://github.com/Albikras
 GitHub: GirffinGithub
 
