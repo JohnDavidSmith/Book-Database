@@ -1,3 +1,6 @@
+/**
+ * all required variables whether it be an import or a library
+ */
 const sequelize = require("../config/connection");
 const { Books, Genre, Author, Review } = require("../models");
 const { User } = require("../models");
@@ -6,9 +9,9 @@ const genreData = require("./genreSeed");
 const authorData = require("./authorSeed");
 const userData = require("./userSeed");
 const reviewData = require("./reviewSeed");
-
-// const userData = require("./postData.json");
-
+/**
+ * fucntion for seeding the tables
+ */
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 

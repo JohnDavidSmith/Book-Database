@@ -1,3 +1,6 @@
+/**
+ * all required variables whether it be an import or a library
+ */
 const Books = require("./Books");
 const User = require("./User");
 const Author = require("./Author");

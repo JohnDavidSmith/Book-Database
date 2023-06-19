@@ -7,6 +7,7 @@
 - Problems Solved: The problems this particular application solves is being able to see what others thought about a book you amy be deciding to read
 - What I Learned: We learned many thing throughout the process of creating this porject, one of the most important thing is how valuable sleep is. This porject was definatly a lot harder then we thought it would be and it also did not help that whenever we saw a cool idea on the internet we wanted to replicate it and that cool idea would take many hours to complete. Another thing we learned thorught the process of creating this program was routing can be really annoying and so can spell chicking. Spent about an hour trying to figure out where the code was going wrong turns out the issue was "submit" was spelt "sumbit".
 
+
 ## Contents
 
 - This project content `package.json` with the required dependencies and data base files schema.sql and seeds.sql.
@@ -19,10 +20,6 @@
 
 - This application can be used by anyone who want to read a book and find the reviews about that particular book.
 
-## Screenshot
-
-![Screenshot of the E-Commerce Back End](./Assets/E-Commerce%20Back%20End-ROM.png)
-
 ## GitHub link
 
 [The E-Commerce Back End](https://github.com/JohnDavidSmith/E-commerce-BackEnd-ORM-Mod13)
@@ -34,7 +31,7 @@ https://drive.google.com/file/d/1YtYbKl6Dyj0X1t0iP8RVIanmTXtg-Drx/view
 ## Credits
 
 - Albi krasniqi
-- Griffin Pelliteri
+- Griffin Pelletier
 
 ## License
 
@@ -54,4 +51,6 @@ If you want to reach me or any of my contributors with additional question click
 
 ## Screenshot
 
-![test](test)
+![Homepage](./images/bookhome.png)
+![Login](./images/loginRoute.png)
+![review Page](./images/reviewRoute.png)

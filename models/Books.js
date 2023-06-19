@@ -1,8 +1,12 @@
+/**
+ * all required variables whether it be an import or a library
+ */
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-class Books extends Model {}
+class Books extends Model {}//use sequlize method for models
 
+//create table Books
 Books.init(
   {
     id: {
