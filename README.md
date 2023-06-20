@@ -21,16 +21,17 @@
 
 ## GitHub link
 
-[The E-Commerce Back End](https://github.com/JohnDavidSmith/E-commerce-BackEnd-ORM-Mod13)
+https://github.com/JohnDavidSmith/Book-Database.git
 
 ## Heroku link
 
-https://drive.google.com/file/d/1YtYbKl6Dyj0X1t0iP8RVIanmTXtg-Drx/view
+https://stormy-atoll-29529-b51ffbbd6de0.herokuapp.com
 
 ## Credits
 
 - Albi krasniqi
 - Griffin Pelletier
+- John Smith
 
 ## License
 
@@ -42,7 +43,7 @@ GitHub: https://github.com/JohnDavidSmith/Book-Database
 GitHub: https://github.com/Albikras
 GitHub: GirffinGithub
 
-If you want to reach me or any of my contributors with additional question click my email link here: Johns@email, krasniqi1287@gmail.com, Griffins@email
+If you want to reach me or any of my contributors with additional question click my email link here: Johns@email, krasniqi1287@gmail.com, griffin.pelletier@gmail.com
 
 ## How to Contribute
 
