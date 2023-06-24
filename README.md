@@ -7,7 +7,6 @@
 - Problems Solved: The problems this particular application solves is being able to see what others thought about a book you amy be deciding to read
 - What I Learned: We learned many thing throughout the process of creating this porject, one of the most important thing is how valuable sleep is. This porject was definatly a lot harder then we thought it would be and it also did not help that whenever we saw a cool idea on the internet we wanted to replicate it and that cool idea would take many hours to complete. Another thing we learned thorught the process of creating this program was routing can be really annoying and so can spell chicking. Spent about an hour trying to figure out where the code was going wrong turns out the issue was "submit" was spelt "sumbit".
 
-
 ## Contents
 
 - This project content `package.json` with the required dependencies and data base files schema.sql and seeds.sql.
@@ -22,16 +21,17 @@
 
 ## GitHub link
 
-[The E-Commerce Back End](https://github.com/JohnDavidSmith/E-commerce-BackEnd-ORM-Mod13)
+https://github.com/JohnDavidSmith/Book-Database.git
 
 ## Heroku link
 
-https://drive.google.com/file/d/1YtYbKl6Dyj0X1t0iP8RVIanmTXtg-Drx/view
+https://stormy-atoll-29529-b51ffbbd6de0.herokuapp.com
 
 ## Credits
 
 - Albi krasniqi
 - Griffin Pelletier
+- John Smith
 
 ## License
 
@@ -43,7 +43,7 @@ GitHub: https://github.com/JohnDavidSmith/Book-Database
 GitHub: https://github.com/Albikras
 GitHub: GirffinGithub
 
-If you want to reach me or any of my contributors with additional question click my email link here: Johns@email, krasniqi1287@gmail.com, Griffins@email
+If you want to reach me or any of my contributors with additional question click my email link here: Johns@email, krasniqi1287@gmail.com, griffin.pelletier@gmail.com
 
 ## How to Contribute
 
